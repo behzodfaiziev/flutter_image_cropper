@@ -11,6 +11,7 @@ import androidx.preference.PreferenceManager;
 import com.yalantis.ucrop.UCrop;
 import com.yalantis.ucrop.model.AspectRatio;
 import com.yalantis.ucrop.view.CropImageView;
+import com.yalantis.ucrop.UCropActivity;
 
 import java.io.File;
 import java.util.ArrayList;
