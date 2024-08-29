@@ -66,7 +66,7 @@ public class ImageCropperDelegate implements PluginRegistry.ActivityResultListen
         options.setCompressionFormat("png".equals(compressFormat) ? Bitmap.CompressFormat.PNG : Bitmap.CompressFormat.JPEG);
         options.setCompressionQuality(compressQuality != null ? compressQuality : 90);
         options.setMaxBitmapSize(10000);
-
+        options.setAllowedGestures(UCropActivity.SCALE, UCropActivity.NONE, UCropActivity.SCALE);
         // UI customization settings
         if ("circle".equals(cropStyle)) {
             options.setCircleDimmedLayer(true);
